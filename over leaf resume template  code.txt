@@ -1,0 +1,120 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{4pt}\scshape\large\raggedright
+}{}{0em}{}[\titlerule \vspace{-4pt}]
+
+%-------------------------------------------
+\begin{document}
+
+%----------HEADING-----------------
+\begin{center}
+    {\Huge \scshape Rakesh Kumar} \\ \vspace{2pt}
+    \href{mailto:rakesh.kumar@gmail.com}{rakesh.kumar@gmail.com} $|$ Phone: 9035888620 $|$ 
+    \href{https://linkedin.com/in/rakesh9397}{LinkedIn: rakesh9397} $|$ 
+    \href{https://github.com/rakeshofficial}{GitHub: rakeshofficial}
+\end{center}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.5cm]
+    \item \textbf{Languages:} Java, JavaScript, SQL, HTML5, CSS3
+    \item \textbf{Frameworks / Libraries:} J2SE, J2EE, Java 8/11, Spring Boot, Spring MVC, Hibernate, Servlets, Apache, Maven
+    \item \textbf{Databases:} MySQL, Workbench, Oracle
+    \item \textbf{Developer Tools:} Git, Visual Studio, IntelliJ IDEA, Eclipse IDE, Spring Initializer
+    \item \textbf{Web/Operating System:} Windows, Linux
+    \item \textbf{Technical Proficiencies:} Data Structure and Algorithms, Object-Oriented Programming, Database Management System
+    \item \textbf{Soft Skills:} Leadership, Problem-Solving, Collaborative
+\end{itemize}
+
+%-----------EDUCATION-----------
+\section{Education}
+\textbf{Bachelor of Engineering in Computer Science}, Bangalore \\
+R.V. College of Engineering \hfill June 2021 -- Present\\
+Current CGPA: 8.80 \\
+
+\vspace{4pt}
+\textbf{Pre-University Course (PU)}, Bangalore \\
+St. Joseph’s PU College \hfill June 2019 -- Dec 2021\\
+Final Percentage: 92\% \\
+
+\vspace{4pt}
+\textbf{Secondary School Leaving Certificate (SSLC)}, Bangalore \\
+National Public School \hfill June 2018 -- Dec 2019\\
+Final Percentage: 92\% \\
+
+%-----------ACADEMIC PROJECTS-----------
+\section{Academic Projects}
+
+\textbf{Employee Management System} \hfill Oct 2024 -- Present \\
+\begin{itemize}
+    \item Developed a secure employee management system using JDBC with login, registration, and account management features.
+    \item Ensured robust data handling and integrated exception mechanisms to enhance reliability.
+    \item Implemented a dashboard for streamlined record management and role-based access.
+\end{itemize}
+
+\textbf{Amazon Invoice Generator} \hfill June 2024 -- Dec 2024 \\
+\begin{itemize}
+    \item Built a dynamic invoice generator for Amazon using JDBC to process itemized billing and discounts.
+    \item Enhanced user interaction by hosting with Apache Tomcat and HTML forms integration.
+    \item Exported invoices in PDF format for documentation and seamless record-keeping.
+\end{itemize}
+
+%-----------INTERNSHIP-----------
+\section{Internship}
+
+\textbf{Intern at ABC Solutions, Bangalore} \hfill April 2024 \\
+\begin{itemize}
+    \item Worked on real-time Java projects, focusing on backend development using Spring Boot.
+    \item Learned database management by implementing queries and CRUD operations in MySQL.
+    \item Collaborated with the team to optimize API performance and enhance the scalability of existing systems.
+\end{itemize}
+
+%-----------COURSES & CERTIFICATIONS-----------
+\section{Courses and Certifications}
+\begin{itemize}
+    \item Completed hands-on training in full-stack development, including front-end and back-end technologies.
+    \item Gained experience in building and deploying web applications using Java, Spring Boot, SQL, and related technologies.
+    \item 6-week NPTEL certification on ‘Foundations of Programming in C’ by IISc Bangalore.
+\end{itemize}
+
+%-----------ACHIEVEMENTS & AWARDS-----------
+\section{Achievements and Awards}
+\begin{itemize}
+    \item Led a team of 8 to improve project efficiency by 20\%, earning the “Star Performer” award at XYZ College.
+    \item Secured 1st place in the CodeFest Hackathon 2023 among 50 teams at ABC University, Bangalore.
+\end{itemize}
+
+%-----------HOBBIES-----------
+\section{Hobbies}
+\begin{itemize}
+    \item Participating in Java Tech Community events to discuss innovations and practical applications.
+    \item Exploring emerging technologies through hands-on mini-projects and open-source contributions.
+    \item Collaborating with peers in the Java Tech Community to enhance problem-solving skills and discuss coding challenges.
+\end{itemize}
+
+\end{document}
